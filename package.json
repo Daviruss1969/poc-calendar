@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@event-calendar/resource-time-grid": "^3.1.0",
+    "@event-calendar/resource-timeline": "^3.1.0",
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/resource": "^6.1.15",
+    "@fullcalendar/resource-timegrid": "^6.1.15",
+    "@fullcalendar/resource-timeline": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@fullcalendar/vue3": "^6.1.14",
+    "@mdi/font": "^7.4.47",
+    "ical.js": "^2.0.1",
+    "nuxt": "^3.12.3",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@event-calendar/core": "^3.1.0",
+    "@event-calendar/interaction": "^3.1.0",
+    "@event-calendar/list": "^3.1.0",
+    "@event-calendar/time-grid": "^3.1.0",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.11"
+  }
+}
